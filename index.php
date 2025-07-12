@@ -1,0 +1,677 @@
+    <?php include("inc/header.php"); ?>
+
+    <section class="banner-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1>Discover Health: Find Your Trusted <span>Doctors</span> Today</h1>
+                    <div class="search-form">
+                        <form action="#">
+                            <div class="inpt">
+                                <i class="fa-solid fa-house-medical"></i>
+                                <input type="text" placeholder="Search for Doctors, Clinics, Hospital">
+                            </div>
+                            <div class="inpt">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" placeholder="Location">
+                            </div>
+                            <div class="inpt">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <input type="text" id="datepicker" class="date" readonly="readonly" placeholder="Date">
+                            </div>
+                            <div class="inpt">
+                                <input type="submit" value="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="banner-img">
+                        <img src="images/banner-doctor.svg" class="img-fluid" alt="patient-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-bg">
+            <img src="images/banner-bg-02.webp" alt="img" class="banner-bg-01">
+            <img src="images/banner-bg-03.png" alt="img" class="banner-bg-02">
+            <img src="images/banner-bg-04.png" alt="img" class="banner-bg-03">
+            <img src="images/banner-bg-05.webp" alt="img" class="banner-bg-04">
+            <img src="images/banner-icon-01.svg" alt="img" class="banner-bg-05">
+            <img src="images/banner-icon-01.svg" alt="img" class="banner-bg-06">
+        </div>
+    </section>
+
+    <section class="usp-service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <a href="javascript: ;">
+                                <figure>
+                                    <img src="images/speciality-01.webp" alt="">
+                                    <i class="fa-solid fa-comments"></i>
+                                </figure>
+                                <span>Talk to Doctors <i class="fa-solid fa-arrow-right-long"></i></span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <a href="javascript: ;">
+                                <figure>
+                                    <img src="images/speciality-03.webp" alt="">
+                                    <i class="fa-solid fa-house-chimney-medical"></i>
+                                </figure>
+                                <span>Hospitals & Clinics <i class="fa-solid fa-arrow-right-long"></i></span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <a href="javascript: ;">
+                                <figure>
+                                    <img src="images/speciality-02.webp" alt="">
+                                    <i class="fa-solid fa-heart-pulse"></i>
+                                </figure>
+                                <span>Healthcare <i class="fa-solid fa-arrow-right-long"></i></span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <a href="javascript: ;">
+                                <figure>
+                                    <img src="images/speciality-05.jpg" alt="">
+                                    <i class="fa-solid fa-pills"></i>
+                                </figure>
+                                <span>Medicine & Supplies <i class="fa-solid fa-arrow-right-long"></i></span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-6">
+                            <a href="javascript: ;">
+
+                                <figure>
+                                    <img src="images/speciality-07.webp" alt="">
+                                    <i class="fa-solid fa-microscope"></i>
+                                </figure>
+                                <span>Lab Testing <i class="fa-solid fa-arrow-right-long"></i></span>
+
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="top-specialist">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6 class="sub-heading">Top Specialties</h6>
+                    <h2>Highlighting the <span>Care</span> & <span>Support</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="service-slider owl-carousel owl-theme">
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-01.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Cardiology</span>
+                    <p>254 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-02.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Orthopedics</span>
+                    <p>154 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-03.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Neurology</span>
+                    <p>120 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-04.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Pediatrics</span>
+                    <p>150 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-05.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Psychiatry</span>
+                    <p>170 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-06.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Endocrinology</span>
+                    <p>137 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-07.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Pulmonology</span>
+                    <p>131 Doctors</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="javascript: ;">
+                    <figure>
+                        <img src="images/speciality-icon-08.svg" alt="" class="sr-icon">
+                    </figure>
+                    <span>Urology</span>
+                    <p>151 Doctors</p>
+                </a>
+            </div>
+        </div>
+        <div class="banner-bg">
+            <img src="images/banner-bg-02.webp" alt="img" class="banner-bg-01">
+            <img src="images/banner-bg-04.png" alt="img" class="banner-bg-03">
+        </div>
+    </section>
+
+    <section class="ft-doctors">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6 class="sub-heading">Featured Doctors</h6>
+                    <h2>Our Highlighted <span>Doctors</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="doc-cara owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="doc-card card">
+                                <div class="img">
+                                    <a href="doctor-profile.html"><img src="images/doctor-grid-01.jpg" alt=""></a>
+                                    <span class="badge available">
+                                        <i class="fa-solid fa-circle"></i>
+                                        Available
+                                    </span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="active-bar">
+                                        <h5><a href="#">Psychologist</a></h5>
+
+                                    </div>
+                                    <div class="doctor-info-detail">
+                                        <h3><a href="#">Dr. Michael Brown</a></h3>
+                                        <div class="det">
+                                            <p><i class="fa-solid fa-location-dot"></i>Minneapolis, MN</p>
+                                            <p class="time-value"><i class="fa-solid fa-circle"></i>30 Min</p>
+                                        </div>
+                                        <div class="flex-wrp">
+                                            <div class="fee">
+                                                <p>Consultation Fees</p>
+                                                <h3 class="text-orange">$650</h3>
+                                            </div>
+
+                                            <a href="#" class="glb-btn">
+                                                View more
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="doc-card card">
+                                <div class="img">
+                                    <a href="doctor-profile.html"><img src="images/doctor-grid-01.jpg" alt=""></a>
+                                    <span class="badge unavailable">
+                                        <i class="fa-solid fa-circle"></i>
+                                        Unavailable
+                                    </span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="active-bar">
+                                        <h5><a href="#">Psychologist</a></h5>
+
+                                    </div>
+                                    <div class="doctor-info-detail">
+                                        <h3><a href="#">Dr. Michael Brown</a></h3>
+                                        <div class="det">
+                                            <p><i class="fa-solid fa-location-dot"></i>Minneapolis, MN</p>
+                                            <p class="time-value"><i class="fa-solid fa-circle"></i>30 Min</p>
+                                        </div>
+                                        <div class="flex-wrp">
+                                            <div class="fee">
+                                                <p>Consultation Fees</p>
+                                                <h3 class="text-orange">$650</h3>
+                                            </div>
+
+                                            <a href="#" class="glb-btn">
+                                                View more
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="doc-card card">
+                                <div class="img">
+                                    <a href="doctor-profile.html"><img src="images/doctor-grid-01.jpg" alt=""></a>
+                                    <span class="badge available">
+                                        <i class="fa-solid fa-circle"></i>
+                                        Available
+                                    </span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="active-bar">
+                                        <h5><a href="#">Psychologist</a></h5>
+
+                                    </div>
+                                    <div class="doctor-info-detail">
+                                        <h3><a href="#">Dr. Michael Brown</a></h3>
+                                        <div class="det">
+                                            <p><i class="fa-solid fa-location-dot"></i>Minneapolis, MN</p>
+                                            <p class="time-value"><i class="fa-solid fa-circle"></i>30 Min</p>
+                                        </div>
+                                        <div class="flex-wrp">
+                                            <div class="fee">
+                                                <p>Consultation Fees</p>
+                                                <h3 class="text-orange">$650</h3>
+                                            </div>
+
+                                            <a href="#" class="glb-btn">
+                                                View more
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="doc-card card">
+                                <div class="img">
+                                    <a href="doctor-profile.html"><img src="images/doctor-grid-01.jpg" alt=""></a>
+                                    <span class="badge available">
+                                        <i class="fa-solid fa-circle"></i>
+                                        Available
+                                    </span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="active-bar">
+                                        <h5><a href="#">Psychologist</a></h5>
+
+                                    </div>
+                                    <div class="doctor-info-detail">
+                                        <h3><a href="#">Dr. Michael Brown</a></h3>
+                                        <div class="det">
+                                            <p><i class="fa-solid fa-location-dot"></i>Minneapolis, MN</p>
+                                            <p class="time-value"><i class="fa-solid fa-circle"></i>30 Min</p>
+                                        </div>
+                                        <div class="flex-wrp">
+                                            <div class="fee">
+                                                <p>Consultation Fees</p>
+                                                <h3 class="text-orange">$650</h3>
+                                            </div>
+
+                                            <a href="#" class="glb-btn">
+                                                View more
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="doc-card card">
+                                <div class="img">
+                                    <a href="doctor-profile.html"><img src="images/doctor-grid-01.jpg" alt=""></a>
+                                    <span class="badge available">
+                                        <i class="fa-solid fa-circle"></i>
+                                        Available
+                                    </span>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="active-bar">
+                                        <h5><a href="#">Psychologist</a></h5>
+
+                                    </div>
+                                    <div class="doctor-info-detail">
+                                        <h3><a href="#">Dr. Michael Brown</a></h3>
+                                        <div class="det">
+                                            <p><i class="fa-solid fa-location-dot"></i>Minneapolis, MN</p>
+                                            <p class="time-value"><i class="fa-solid fa-circle"></i>30 Min</p>
+                                        </div>
+                                        <div class="flex-wrp">
+                                            <div class="fee">
+                                                <p>Consultation Fees</p>
+                                                <h3 class="text-orange">$650</h3>
+                                            </div>
+
+                                            <a href="#" class="glb-btn">
+                                                View more
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                            <div class="item">
+                                <div class="doc-card card">
+                                    <div class="img">
+                                        <a href="doctor-profile.html"><img src="images/doctor-grid-01.jpg" alt=""></a>
+                                        <span class="badge available">
+                                            <i class="fa-solid fa-circle"></i>
+                                            Available
+                                        </span>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <div class="active-bar">
+                                            <h5><a href="#">Psychologist</a></h5>
+
+                                        </div>
+                                        <div class="doctor-info-detail">
+                                            <h3><a href="#">Dr. Michael Brown</a></h3>
+                                            <div class="det">
+                                                <p><i class="fa-solid fa-location-dot"></i>Minneapolis, MN</p>
+                                                <p class="time-value"><i class="fa-solid fa-circle"></i>30 Min</p>
+                                            </div>
+                                            <div class="flex-wrp">
+                                                <div class="fee">
+                                                    <p>Consultation Fees</p>
+                                                    <h3 class="text-orange">$650</h3>
+                                                </div>
+
+                                                <a href="#" class="glb-btn">
+                                                    View more
+                                                </a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h2><span>About</span> us</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates optio sed, eligendi ipsum laborum velit quibusdam rem ipsam sapiente laudantium repudiandae? Excepturi fugiat id, deleniti eveniet ex illum beatae omnis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ipsum suscipit eum pariatur, quas corrupti non quod sunt possimus eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus iusto qui at iure doloremque placeat quod suscipit hic id.</p>
+                    <a href="#" class="glb-btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="main" src="images/why.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="sub-heading">Why Choose us</h6>
+                    <h2>We are committed to <span> understanding</span> your unique needs and delivering <span>care</span>.</h2>
+                    <p>As a trusted healthAs a trusted healthcare provider in our community, we are passionate about promoting health and wellness beyond the clinic. We actively engage in community outreach programs, health fairs, and educational workshop.</p>
+                </div>
+            </div>
+            <div class="row card-sec">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-card">
+                        <div class="inner">
+                            <div class="icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <h4>Search For Doctors</h4>
+                            <p>Search for a doctor based on specialization, location, or availability for your Treatements</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-card">
+                        <div class="inner">
+                            <div class="icon">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <h4>Check Doctor Profile</h4>
+                            <p>Explore detailed doctor profiles on our platform to make informed healthcare decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-card">
+                        <div class="inner">
+                            <div class="icon">
+                                <i class="fa-solid fa-people-arrows"></i>
+                            </div>
+                            <h4>Get Your Solution</h4>
+                            <p>Discuss your health concerns with the doctor and receive the personalized advice & with solution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="heading">
+                        <h6 class="sub-heading">Our Reviews</h6>
+                        <h2>Real Experiences, Real Results</h2>
+                    </div>
+                    <p>We take pride in the trust and satisfaction of our clients. Don’t just take our word for it—browse through real reviews</p>
+
+                    <div class="ft-reviews-cara cara-style">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="rvw-card">
+                                    <div class="prof">
+                                        <img src="images/google.svg" alt="">
+                                        <div class="image">
+                                            <img src="images/u1.png" alt="">
+                                        </div>
+                                        <div class="tx">
+                                            <h5>Emily T <img src="images/verified.svg" alt=""></h5>
+                                            <h6>2025.03.07</h6>
+                                        </div>
+                                    </div>
+                                    <div class="bdy">
+                                        <img src="images/stars.png" alt="">
+                                        <h4>Its real and they are very helpful</h4>
+                                        <p>rom tinting my windows to detailing my interior, the attention to detail was unmatched. My car looks better than ever.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="rvw-card">
+                                    <div class="prof">
+                                        <img src="images/google.svg" alt="">
+                                        <div class="image">
+                                            <img src="images/u1.png" alt="">
+                                        </div>
+                                        <div class="tx">
+                                            <h5>Fawad Hamidi <img src="images/verified.svg" alt=""></h5>
+                                            <h6>2025.03.07</h6>
+                                        </div>
+                                    </div>
+                                    <div class="bdy">
+                                        <img src="images/stars.png" alt="">
+                                        <h4>A Truly Outstanding Experience!</h4>
+                                        <p>I had my car's paint protected with XPEL Ultimate Plus, and I couldn't be happier! The team was professional, thorough, and the results speak for themselves. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="rvw-card">
+                                    <div class="prof">
+                                        <img src="images/google.svg" alt="">
+                                        <div class="image">
+                                            <img src="images/u1.png" alt="">
+                                        </div>
+                                        <div class="tx">
+                                            <h5>Emily T <img src="images/verified.svg" alt=""></h5>
+                                            <h6>2025.03.07</h6>
+                                        </div>
+                                    </div>
+                                    <div class="bdy">
+                                        <img src="images/stars.png" alt="">
+                                        <h4>A Truly Outstanding Experience!</h4>
+                                        <p>I had my car's paint protected with XPEL Ultimate Plus, and I couldn't be happier! The team was professional, thorough, and the results speak for themselves. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="rvw-card">
+                                    <div class="prof">
+                                        <img src="images/google.svg" alt="">
+                                        <div class="image">
+                                            <img src="images/u2.png" alt="">
+                                        </div>
+                                        <div class="tx">
+                                            <h5>James R <img src="images/verified.svg" alt=""></h5>
+                                            <h6>2025.03.07</h6>
+                                        </div>
+                                    </div>
+                                    <div class="bdy">
+                                        <img src="images/stars.png" alt="">
+                                        <h4>Amazing!</h4>
+                                        <p>I opted for the ceramic coating, and it completely transformed the look and feel of my vehicle. The finish is glossy, and cleaning it has never been easier.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="rvw-card">
+                                    <div class="prof">
+                                        <img src="images/google.svg" alt="">
+                                        <div class="image">
+                                            <img src="images/u1.png" alt="">
+                                        </div>
+                                        <div class="tx">
+                                            <h5>Emily T <img src="images/verified.svg" alt=""></h5>
+                                            <h6>2025.03.07</h6>
+                                        </div>
+                                    </div>
+                                    <div class="bdy">
+                                        <img src="images/stars.png" alt="">
+                                        <h4>A Truly Outstanding Experience!</h4>
+                                        <p>I had my car's paint protected with XPEL Ultimate Plus, and I couldn't be happier! The team was professional, thorough, and the results speak for themselves. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="faq-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h6 class="sub-heading">Faqs</h6>
+                    <h2>Your Questions are <span>Answered</span></h2>
+                    <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                        stay faithful to black.</p>
+                    <ul class="accordian">
+                        <li class="">
+                            <h4>How many colors?</h4>
+                            <div class="content" style="display: none;">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                        <li class="active">
+                            <h4>What product can I use in HighKey?</h4>
+                            <div class="content" style="display: block;">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>What types of carts can I use with HighKey?</h4>
+                            <div class="content">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Step by step guide to using HighKey?</h4>
+                            <div class="content">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>How to get the best performance with HighKey?</h4>
+                            <div class="content">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>How discreet is the design?</h4>
+                            <div class="content">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Is HighKey car key vape battery covered by warranty?</h4>
+                            <div class="content">
+                                <p>HighKey is available in 6 different colors - black, white, grey, blue, red and green... but if discretion is important,
+                                    stay faithful to black.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <?php include("inc/footer.php"); ?>
